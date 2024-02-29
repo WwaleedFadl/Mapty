@@ -85,7 +85,7 @@ class App {
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function () {
-          console.error('could not get your position');
+          console.error('Hello sir please enable your location :)');
         }
       );
     }
